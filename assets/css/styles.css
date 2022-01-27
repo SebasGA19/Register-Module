@@ -73,6 +73,7 @@ main{
 }
 
 /*Formularios*/
+/* Este contenedor tiene dentro los formularios de registrar y login*/
 .contenedor_login-register{
     display: flex;
     align-items: center;

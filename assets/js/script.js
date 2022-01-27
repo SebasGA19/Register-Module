@@ -45,6 +45,8 @@ function iniciarSesion(){
 }
 
 function anchoPagina(){
+    // Cambiar la distribucion de la pagina dinamicamente
+    // Para que no se despapaye cuando se hagan cambios
     if(window.innerWidth>850){
         caja_trasera_login.style.display="block";
         caja_trasera_register.style.display="block";
